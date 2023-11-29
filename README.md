@@ -3,12 +3,12 @@ Simula le funzioni di una stampante
 ## funzionalitá
 
 
-## classe "stampa"
+## classe "Stampante"
 ### atttibuti
 
 ### metodi
 
-## Classe "foglio"
+## Classe "Pagina"
 ### attributi
 
 ### metodi
