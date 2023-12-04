@@ -10,7 +10,7 @@ Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro,
 * int B
 * int Folgi
 ### Costruttore
-N.1: questo costruttore imposta tutti i colori e i fogli al livello massimo, ovvero: è stato scelto per i colori il valore di 100, e per il valore dei fogli totali è 200.
+#### N.1: imposta tutti i colori e i fogli al livello massimo, 
 ``` c#
      public Stampante() 
         { 
@@ -18,6 +18,8 @@ N.1: questo costruttore imposta tutti i colori e i fogli al livello massimo, ovv
             Fogli = 200;
         }
 ```
+#### i valori massimi sono: per i colori 100, e per i fogli 200.
+
 ### metodi
 * Stampa (bool)
 * StatoInchiostro (int)
@@ -34,7 +36,7 @@ N.1: questo costruttore imposta tutti i colori e i fogli al livello massimo, ovv
 * bool valido
 
 ### costruttore
-N.1: Accetta colori specifici al massimo di valore 3
+#### N.1: Accetta colori specifici al massimo di valore 3
 ``` c#
 public Pagina(int c, int m, int y, int b)
         {
@@ -68,7 +70,7 @@ public Pagina(int c, int m, int y, int b)
             
         }
 ```
-N.2: crea una Pagina con colori random
+#### N.2: crea una Pagina con colori random
 ``` c#
 public Pagina(Random random)
         {
@@ -78,3 +80,4 @@ public Pagina(Random random)
             this.B = random.Next(0, 4);
         }
 ``` 
+#### In questo costruttore viene scelto il colore e il livello del colore alla stampa, se: il valore del colore è 0, allora il colore non verrà selezionato.
