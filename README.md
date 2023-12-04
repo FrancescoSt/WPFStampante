@@ -1,6 +1,6 @@
 # WPFStampante
-Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro, controllo stato carta, sostituzione del colore, aggiunta carta.
-È stato creato l'UML per avere una visione completa sulle classi.
+#### Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro, controllo stato carta, sostituzione del colore, aggiunta carta.
+#### È stato creato l'UML per avere una visione completa sulle classi.
 
 ## Classe "Stampante"
 ### Atttibuti
