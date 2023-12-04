@@ -2,15 +2,15 @@
 Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro, controllo stato carta, sostituzione del colore, aggiunta carta.
 È stato creato l'UML per avere una visione completa sulle classi.
 
-## classe "Stampante"
-### atttibuti
+## Classe "Stampante"
+### Atttibuti
 * int C
-* int M
+* int 
 * int Y
 * int B
 * int Folgi
 ### Costruttore
-#### N.1: imposta tutti i colori e i fogli al livello massimo, 
+#### N.1: Imposta tutti i colori e i fogli al livello massimo, 
 ``` c#
      public Stampante() 
         { 
@@ -19,7 +19,7 @@ Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro,
         }
 ```
 #### i valori massimi sono: per i colori 100, e per i fogli 200.
-### metodi
+### Metodi
 * Stampa (bool)
 * StatoInchiostro (int)
 * StatoCarta()
@@ -27,14 +27,14 @@ Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro,
 * AggiungiCarta(void)
 
 ## Classe "Pagina"
-### attributi
+### Attributi
 * int C
 * int M
 * int Y
 * int B
 * bool valido
 
-### costruttore
+### Costruttore
 #### N.1: Accetta colori specifici al massimo di valore 3
 ``` c#
 public Pagina(int c, int m, int y, int b)
