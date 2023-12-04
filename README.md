@@ -19,7 +19,6 @@ Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro,
         }
 ```
 #### i valori massimi sono: per i colori 100, e per i fogli 200.
-
 ### metodi
 * Stampa (bool)
 * StatoInchiostro (int)
