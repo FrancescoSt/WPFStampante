@@ -10,7 +10,14 @@ Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro,
 * int B
 * int Folgi
 ### Costruttore
-
+N.1: questo costruttore imposta tutti i colori e i fogli al livello massimo, ovvero: è stato scelto per i colori il valore di 100, e per il valore dei fogli totali è 200.
+``` c#
+     public Stampante() 
+        { 
+            C = M = Y = B = 100;
+            Fogli = 200;
+        }
+```
 ### metodi
 * Stampa (bool)
 * StatoInchiostro (int)
