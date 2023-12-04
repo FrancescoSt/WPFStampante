@@ -18,7 +18,7 @@
             Fogli = 200;
         }
 ```
-#### i valori massimi sono: per i colori 100, e per i fogli 200.
+#### I valori massimi sono: per i colori 100, e per i fogli 200.
 ### Metodi
 * Stampa (bool)
 * StatoInchiostro (int)
@@ -69,7 +69,7 @@ public Pagina(int c, int m, int y, int b)
             
         }
 ```
-#### N.2: crea una Pagina con colori random
+#### N.2: Crea una Pagina con colori random
 ``` c#
 public Pagina(Random random)
         {
