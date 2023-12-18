@@ -2,7 +2,10 @@
 #### Simula le funzioni di una stampante, ovvero: stampa, controllo stato inchiostro, controllo stato carta, sostituzione del colore, aggiunta carta.
 #### È stato creato l'UML per avere una visione completa sulle classi.
 ## UML
-![](ImgUML/PrimaParte UMLStampanteWPF.jpg)
+### Classe Stampante
+![](ImgUML/PrimaParteUMLStampanteWPF.jpg)
+### Classe Pagina
+![](ImgUML/SecondaParteUMLStampanteWPF.jpg)
 ## Classe "Stampante"
 ### Atttibuti
 * int C
